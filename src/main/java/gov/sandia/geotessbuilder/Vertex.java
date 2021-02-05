@@ -35,13 +35,13 @@
 
 package gov.sandia.geotessbuilder;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
-
 import gov.sandia.gmp.util.containers.arraylist.ArrayListDouble;
 import gov.sandia.gmp.util.numerical.vector.VectorGeo;
 import gov.sandia.gmp.util.numerical.vector.VectorUnit;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Vertex represents a single point on the surface of a unit sphere, represented

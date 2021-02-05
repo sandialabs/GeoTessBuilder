@@ -35,10 +35,10 @@
 
 package gov.sandia.geotessbuilder;
 
+import gov.sandia.geotess.GeoTessException;
+
 import java.util.ArrayList;
 import java.util.Collection;
-
-import gov.sandia.geotess.GeoTessException;
 
 public class TessellationPrimary extends Tessellation {
 	private static final long serialVersionUID = 1L;

@@ -35,29 +35,7 @@
 
 package gov.sandia.geotessbuilder;
 
-import static java.lang.Math.PI;
-import static java.lang.Math.acos;
-import static java.lang.Math.ceil;
-import static java.lang.Math.cos;
-import static java.lang.Math.sin;
-
-import java.io.DataInputStream;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.PrintStream;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
-import java.util.zip.ZipFile;
-
-import gov.sandia.geotess.GeoTessException;
-import gov.sandia.geotess.GeoTessGrid;
-import gov.sandia.geotess.GeoTessModel;
-import gov.sandia.geotess.GeoTessModelUtils;
-import gov.sandia.geotess.GeoTessUtils;
-import gov.sandia.geotess.PointMap;
+import gov.sandia.geotess.*;
 import gov.sandia.gmp.util.containers.arraylist.ArrayListInt;
 import gov.sandia.gmp.util.globals.DataType;
 import gov.sandia.gmp.util.globals.Globals;
@@ -70,6 +48,14 @@ import gov.sandia.gmp.util.numerical.vector.VectorGeo;
 import gov.sandia.gmp.util.numerical.vector.VectorUnit;
 import gov.sandia.gmp.util.propertiesplus.PropertiesPlus;
 import gov.sandia.gmp.util.propertiesplus.PropertiesPlusException;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+import java.util.zip.ZipFile;
+
+import static java.lang.Math.*;
 
 public class GeoTessBuilderMain {
 

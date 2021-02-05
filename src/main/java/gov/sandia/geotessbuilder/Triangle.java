@@ -35,13 +35,13 @@
 
 package gov.sandia.geotessbuilder;
 
-import static java.lang.Math.PI;
+import gov.sandia.geotess.GeoTessException;
+import gov.sandia.gmp.util.numerical.vector.VectorUnit;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
-import gov.sandia.geotess.GeoTessException;
-import gov.sandia.gmp.util.numerical.vector.VectorUnit;
+import static java.lang.Math.PI;
 
 /**
  * Triangle is essentially an array of 3 Vertex objects which define a spherical

@@ -35,12 +35,12 @@
 
 package gov.sandia.geotessbuilder;
 
-import java.util.Arrays;
-import java.util.Collection;
-
 import gov.sandia.geotess.GeoTessException;
 import gov.sandia.geotess.GeoTessGrid;
 import gov.sandia.gmp.util.numerical.vector.VectorGeo;
+
+import java.util.Arrays;
+import java.util.Collection;
 
 public class TessellationRefined extends Tessellation {
 	/**

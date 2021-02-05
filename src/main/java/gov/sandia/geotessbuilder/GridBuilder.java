@@ -35,13 +35,13 @@
 
 package gov.sandia.geotessbuilder;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Date;
-
 import gov.sandia.geotess.GeoTessException;
 import gov.sandia.geotess.GeoTessGrid;
 import gov.sandia.gmp.util.md5.MD5Hash;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Date;
 
 public class GridBuilder extends GeoTessGrid {
 	private Collection<Tessellation> tessList;
@@ -61,7 +61,6 @@ public class GridBuilder extends GeoTessGrid {
 	 * gridID using an MD5 hash built from the aforementioned data structures.
 	 * 
 	 * @throws GeoTessException
-	 * @throws PolygonException
 	 */
 	private long process() throws GeoTessException {
 		long timer = System.currentTimeMillis();

@@ -35,14 +35,14 @@
 
 package gov.sandia.geotessbuilder;
 
+import gov.sandia.geotess.GeoTessException;
+import gov.sandia.geotess.GeoTessGrid;
+import gov.sandia.gmp.util.numerical.polygon.Polygon;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
-
-import gov.sandia.geotess.GeoTessException;
-import gov.sandia.geotess.GeoTessGrid;
-import gov.sandia.gmp.util.numerical.polygon.Polygon;
 
 /**
  * Tessellation manages a single instance of multi-level tessellation of a unit

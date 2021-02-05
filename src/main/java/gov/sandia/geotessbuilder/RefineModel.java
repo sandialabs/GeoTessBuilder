@@ -35,32 +35,15 @@
 
 package gov.sandia.geotessbuilder;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.TreeSet;
-
-import gov.sandia.geotess.Data;
-import gov.sandia.geotess.GeoTessGrid;
-import gov.sandia.geotess.GeoTessMetaData;
-import gov.sandia.geotess.GeoTessModel;
-import gov.sandia.geotess.GeoTessModelUtils;
-import gov.sandia.geotess.GeoTessPosition;
-import gov.sandia.geotess.Profile;
-import gov.sandia.geotess.ProfileConstant;
-import gov.sandia.geotess.ProfileEmpty;
-import gov.sandia.geotess.ProfileNPoint;
-import gov.sandia.geotess.ProfileSurface;
-import gov.sandia.geotess.ProfileSurfaceEmpty;
-import gov.sandia.geotess.ProfileThin;
-import gov.sandia.geotess.ProfileType;
+import gov.sandia.geotess.*;
 import gov.sandia.gmp.util.containers.arraylist.ArrayListInt;
 import gov.sandia.gmp.util.containers.hash.sets.HashSetInteger;
 import gov.sandia.gmp.util.containers.hash.sets.HashSetInteger.Iterator;
 import gov.sandia.gmp.util.globals.Globals;
 import gov.sandia.gmp.util.globals.InterpolatorType;
+
+import java.io.File;
+import java.util.*;
 
 public class RefineModel {
 
