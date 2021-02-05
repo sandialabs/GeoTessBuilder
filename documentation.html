@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>GeoTess Builder Documentation</title>
+</head>
+<body>
+<h2>GeoTess Builder</h2>
+
+GeoTessBuilder is an command line driven application written in java that allows users to contruct new GeoTessGrid objects.  The grids can consist of multiple multi-level tessellations to allow variable resolution in the radial direction, and their geographic resolution can be controlled by specifying polygons, paths and points about which the resolution should be varied.  See the <a href="GeoTessUsersManual2020.pdf">User's Manual</a> for more details.
+
+<h3>Configuration</h3>
+A bash script called <tt>configure_geotessbuilder.sh</tt>
+is provided that generates a two-line executable script called
+<tt>geotessbuilder</tt> that will launch the GeoTessBuilder
+application.  The configuration script also prints to
+the screen a recommended addition to the user's PATH
+environment variable that will make the executable
+accessible from any directory. No modifications to the
+user's environment are performed by the configuration
+script.  After running <tt>configure_geotessbuilder.sh</tt> and making
+the recommended addition to the user's <tt>.cshrc</tt> or <tt>.bash_profile</tt>
+file, executing the command <tt>geotessbuilder</tt> from any directory will
+launch GeoTessBuilder.
+
+<h3>Example Properties Files</h3>
+
+GeoTessBuilder is configured using properties files. Several example properties files are provided in the GeoTessBuilderExamples directory.
+
+
+</body>
+</html>
